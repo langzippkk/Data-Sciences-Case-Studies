@@ -1,0 +1,877 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0226.1502                               -->
+<workbook source-build='2019.1.1 (20191.19.0226.1502)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='train' inline='true' name='federated.1mpuvfd04x468u18i6v3m1dtkmv7' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='train' name='textscan.07fh71214vxwkq1cmp2991i3lzyh'>
+            <connection class='textscan' directory='C:/Users/rritesh/Master/Projects/Case Studies/MASTER/AirBNB/Airbnb Datasets' filename='train.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.07fh71214vxwkq1cmp2991i3lzyh' name='train.csv' table='[train#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='real' name='log_price' ordinal='1' />
+            <column datatype='string' name='property_type' ordinal='2' />
+            <column datatype='string' name='room_type' ordinal='3' />
+            <column datatype='string' name='amenities' ordinal='4' />
+            <column datatype='integer' name='accommodates' ordinal='5' />
+            <column datatype='real' name='bathrooms' ordinal='6' />
+            <column datatype='string' name='bed_type' ordinal='7' />
+            <column datatype='string' name='cancellation_policy' ordinal='8' />
+            <column datatype='boolean' name='cleaning_fee' ordinal='9' />
+            <column datatype='string' name='city' ordinal='10' />
+            <column datatype='string' name='description' ordinal='11' />
+            <column datatype='date' name='first_review' ordinal='12' />
+            <column datatype='boolean' name='host_has_profile_pic' ordinal='13' />
+            <column datatype='boolean' name='host_identity_verified' ordinal='14' />
+            <column datatype='real' name='host_response_rate' ordinal='15' />
+            <column datatype='date' name='host_since' ordinal='16' />
+            <column datatype='boolean' name='instant_bookable' ordinal='17' />
+            <column datatype='date' name='last_review' ordinal='18' />
+            <column datatype='real' name='latitude' ordinal='19' />
+            <column datatype='real' name='longitude' ordinal='20' />
+            <column datatype='string' name='name' ordinal='21' />
+            <column datatype='string' name='neighbourhood' ordinal='22' />
+            <column datatype='integer' name='number_of_reviews' ordinal='23' />
+            <column datatype='real' name='review_scores_rating' ordinal='24' />
+            <column datatype='string' name='thumbnail_url' ordinal='25' />
+            <column datatype='real' name='zipcode' ordinal='26' />
+            <column datatype='real' name='bedrooms' ordinal='27' />
+            <column datatype='real' name='beds' ordinal='28' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>log_price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[log_price]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>log_price</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>property_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[property_type]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>property_type</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>room_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[room_type]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>room_type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>amenities</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[amenities]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>amenities</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>accommodates</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[accommodates]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>accommodates</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bathrooms</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bathrooms]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>bathrooms</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bed_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bed_type]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>bed_type</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cancellation_policy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cancellation_policy]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>cancellation_policy</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cleaning_fee</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[cleaning_fee]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>cleaning_fee</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>first_review</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[first_review]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>first_review</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_has_profile_pic</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[host_has_profile_pic]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>host_has_profile_pic</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_identity_verified</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[host_identity_verified]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>host_identity_verified</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_response_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[host_response_rate]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>host_response_rate</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>host_since</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[host_since]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>host_since</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>instant_bookable</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[instant_bookable]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>instant_bookable</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_review</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[last_review]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>last_review</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>neighbourhood</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[neighbourhood]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>neighbourhood</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>number_of_reviews</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[number_of_reviews]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>number_of_reviews</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>review_scores_rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[review_scores_rating]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>review_scores_rating</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>thumbnail_url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[thumbnail_url]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>thumbnail_url</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zipcode</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[zipcode]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>zipcode</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bedrooms</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bedrooms]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>bedrooms</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>beds</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[beds]</local-name>
+            <parent-name>[train.csv]</parent-name>
+            <remote-alias>beds</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Accommodates' datatype='integer' name='[accommodates]' role='measure' type='quantitative' />
+      <column caption='Amenities' datatype='string' name='[amenities]' role='dimension' type='nominal' />
+      <column caption='Bathrooms' datatype='real' name='[bathrooms]' role='measure' type='quantitative' />
+      <column caption='Bed Type' datatype='string' name='[bed_type]' role='dimension' type='nominal' />
+      <column caption='Bedrooms' datatype='real' name='[bedrooms]' role='measure' type='quantitative' />
+      <column caption='Beds' datatype='real' name='[beds]' role='measure' type='quantitative' />
+      <column caption='Cancellation Policy' datatype='string' name='[cancellation_policy]' role='dimension' type='nominal' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Cleaning Fee' datatype='boolean' name='[cleaning_fee]' role='dimension' type='nominal' />
+      <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
+      <column caption='First Review' datatype='date' name='[first_review]' role='dimension' type='ordinal' />
+      <column caption='Host Has Profile Pic' datatype='boolean' name='[host_has_profile_pic]' role='dimension' type='nominal' />
+      <column caption='Host Identity Verified' datatype='boolean' name='[host_identity_verified]' role='dimension' type='nominal' />
+      <column caption='Host Response Rate' datatype='real' name='[host_response_rate]' role='measure' type='quantitative' />
+      <column caption='Host Since' datatype='date' name='[host_since]' role='dimension' type='ordinal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Instant Bookable' datatype='boolean' name='[instant_bookable]' role='dimension' type='nominal' />
+      <column caption='Last Review' datatype='date' name='[last_review]' role='dimension' type='ordinal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Neighbourhood' datatype='string' name='[neighbourhood]' role='dimension' type='nominal' />
+      <column caption='Number Of Reviews' datatype='integer' name='[number_of_reviews]' role='measure' type='quantitative' />
+      <column caption='Property Type' datatype='string' name='[property_type]' role='dimension' type='nominal' />
+      <column caption='Review Scores Rating' datatype='real' name='[review_scores_rating]' role='measure' type='quantitative' />
+      <column caption='Room Type' datatype='string' name='[room_type]' role='dimension' type='nominal' />
+      <column caption='Thumbnail Url' datatype='string' name='[thumbnail_url]' role='dimension' type='nominal' />
+      <column caption='Zipcode' datatype='real' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.555725' measure-ordering='alphabetic' measure-percentage='0.444275' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='City/Prices'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1mpuvfd04x468u18i6v3m1dtkmv7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mpuvfd04x468u18i6v3m1dtkmv7'>
+            <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+            <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+            <column-instance column='[log_price]' derivation='Median' name='[med:log_price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[city]' derivation='None' name='[none:city:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[none:city:nk]' direction='ASC' using='[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[med:log_price:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[med:log_price:qk]</rows>
+        <cols>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[none:city:nk]</cols>
+      </table>
+      <simple-id uuid='{A007E946-6FE6-4A4C-8E18-A03ABB31E6CC}' />
+    </worksheet>
+    <worksheet name='FirstReview'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1mpuvfd04x468u18i6v3m1dtkmv7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mpuvfd04x468u18i6v3m1dtkmv7'>
+            <column caption='First Review' datatype='date' name='[first_review]' role='dimension' type='ordinal' />
+            <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+            <column-instance column='[log_price]' derivation='Median' name='[med:log_price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[first_review]' derivation='Year' name='[yr:first_review:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[med:log_price:qk]</rows>
+        <cols>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[yr:first_review:ok]</cols>
+      </table>
+      <simple-id uuid='{EBE71373-C306-44AF-916E-DE8E76C34048}' />
+    </worksheet>
+    <worksheet name='Host Since'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1mpuvfd04x468u18i6v3m1dtkmv7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mpuvfd04x468u18i6v3m1dtkmv7'>
+            <column caption='Host Since' datatype='date' name='[host_since]' role='dimension' type='ordinal' />
+            <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+            <column-instance column='[log_price]' derivation='Median' name='[med:log_price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[host_since]' derivation='Year' name='[yr:host_since:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[med:log_price:qk]</rows>
+        <cols>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[yr:host_since:ok]</cols>
+      </table>
+      <simple-id uuid='{9384EF58-A8A9-478A-85D3-482B3FA66560}' />
+    </worksheet>
+    <worksheet name='HostRespRate'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1mpuvfd04x468u18i6v3m1dtkmv7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mpuvfd04x468u18i6v3m1dtkmv7'>
+            <column-instance column='[log_price]' derivation='Count' name='[cnt:log_price:qk]' pivot='key' type='quantitative' />
+            <column caption='Host Response Rate' datatype='real' name='[host_response_rate]' role='measure' type='quantitative' />
+            <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+            <column-instance column='[host_response_rate]' derivation='None' name='[none:host_response_rate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[cnt:log_price:qk]</rows>
+        <cols>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[none:host_response_rate:qk]</cols>
+      </table>
+      <simple-id uuid='{E2A5EC6D-C5B3-498A-A761-A9ADA136869A}' />
+    </worksheet>
+    <worksheet name='LastReview'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1mpuvfd04x468u18i6v3m1dtkmv7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mpuvfd04x468u18i6v3m1dtkmv7'>
+            <column caption='Last Review' datatype='date' name='[last_review]' role='dimension' type='ordinal' />
+            <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+            <column-instance column='[log_price]' derivation='Median' name='[med:log_price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[last_review]' derivation='Year' name='[yr:last_review:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[med:log_price:qk]</rows>
+        <cols>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[yr:last_review:ok]</cols>
+      </table>
+      <simple-id uuid='{2062BF5C-941C-482B-873C-E0C2C4164992}' />
+    </worksheet>
+    <worksheet name='N&apos;hood/Prices'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1mpuvfd04x468u18i6v3m1dtkmv7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mpuvfd04x468u18i6v3m1dtkmv7'>
+            <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+            <column-instance column='[log_price]' derivation='Median' name='[med:log_price:qk]' pivot='key' type='quantitative' />
+            <column caption='Neighbourhood' datatype='string' name='[neighbourhood]' role='dimension' type='nominal' />
+            <column-instance column='[neighbourhood]' derivation='None' name='[none:neighbourhood:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[none:neighbourhood:nk]' direction='ASC' using='[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[med:log_price:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[med:log_price:qk]</rows>
+        <cols>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[none:neighbourhood:nk]</cols>
+      </table>
+      <simple-id uuid='{557CACDD-FAAA-4E20-B36D-8ACC01DBE1FA}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1mpuvfd04x468u18i6v3m1dtkmv7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mpuvfd04x468u18i6v3m1dtkmv7'>
+            <column caption='Host Since' datatype='date' name='[host_since]' role='dimension' type='ordinal' />
+            <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+            <column-instance column='[log_price]' derivation='Median' name='[med:log_price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[host_since]' derivation='Year-Trunc' name='[tyr:host_since:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[med:log_price:qk]</rows>
+        <cols>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[tyr:host_since:qk]</cols>
+      </table>
+      <simple-id uuid='{9F77861C-46A3-4BDE-9E2F-84D093751EF0}' />
+    </worksheet>
+    <worksheet name='Zipcodes/prices'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train' name='federated.1mpuvfd04x468u18i6v3m1dtkmv7' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1mpuvfd04x468u18i6v3m1dtkmv7'>
+            <column caption='Log Price' datatype='real' name='[log_price]' role='measure' type='quantitative' />
+            <column-instance column='[log_price]' derivation='Median' name='[med:log_price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[zipcode]' derivation='None' name='[none:zipcode:ok]' pivot='key' type='ordinal' />
+            <column caption='Zipcode' datatype='real' default-format='*00000' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[none:zipcode:ok]' direction='ASC' using='[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[med:log_price:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[med:log_price:qk]</rows>
+        <cols>[federated.1mpuvfd04x468u18i6v3m1dtkmv7].[none:zipcode:ok]</cols>
+      </table>
+      <simple-id uuid='{7B6BA3B8-D3D3-417B-9DF4-D29F58CC55B6}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='44'>
+    <window class='worksheet' name='FirstReview'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{816E1F59-EA92-4397-86C3-4DCBD513D620}' />
+    </window>
+    <window class='worksheet' name='HostRespRate'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6A942D07-DD4C-4EEC-8BE8-6FEA716B2F3F}' />
+    </window>
+    <window class='worksheet' name='Host Since'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FC0D9C8E-FAE1-47A3-848A-5D48402EEC81}' />
+    </window>
+    <window class='worksheet' name='LastReview'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B5928E78-3D68-4F3D-9B89-6E16A8EB7EFD}' />
+    </window>
+    <window class='worksheet' maximized='true' name='City/Prices'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E1DD761A-328E-4C7C-BBD9-C16197E1D8EA}' />
+    </window>
+    <window class='worksheet' name='N&apos;hood/Prices'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{057BFD8D-0480-491D-9744-C2AF4BDCF796}' />
+    </window>
+    <window class='worksheet' name='Zipcodes/prices'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FA2B03D9-DAC6-4817-8C87-43CE83995D4C}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{67E2889C-68F6-4403-9DED-5D0C3039F83C}' />
+    </window>
+  </windows>
+</workbook>
