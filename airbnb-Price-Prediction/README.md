@@ -13,14 +13,15 @@
 
 Files Inclusive: 
 ```
-AirBNB EDA_v1.1
-AirBNB EDA_v1.2
+AirBNB EDA_v1.1 - Imputation
+AirBNB EDA_v1.2 - Binning, Dummy, Data Split
 
-AirBnb Modelv1.1
+AirBnb Modelv1.1 - Linear Regression
 
-Output - v1.1_data.csv
-         v1.2_train.csv
-         v1.2_test.csv
+Output (Processed Folder) 
+		-	v1.1_data.csv
+			v1.2_train.csv
+			v1.2_test.csv
 ```
 
 Algorithm Summary:
@@ -45,4 +46,15 @@ Algorithm Summary:
     * property_type, room_type, bed_type, cancellation_policy, cleaning_fee, city, host_has_profile_pic, host_identity_verified, instant_bookable
     
 7. Test/Train Data Split
+```
+
+## Accuracy
+```
+Intercept:  4.488236417684574
+
+Training R2 Score:  0.5681342106578119
+
+Test R2 Score:  0.5639829916248088
+
+RMSE on Test:  0.4738668223683898
 ```
