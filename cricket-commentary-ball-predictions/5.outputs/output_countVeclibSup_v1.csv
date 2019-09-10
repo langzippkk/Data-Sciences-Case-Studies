@@ -5478,7 +5478,7 @@ ID,Target
 5476,Dot
 5477,Dot
 5478,Dot
-5479,Wicket
+5479,Run_Bw_Wickets
 5480,Dot
 5481,Boundary
 5482,Run_Bw_Wickets
@@ -6305,7 +6305,7 @@ ID,Target
 6303,Run_Bw_Wickets
 6304,Run_Bw_Wickets
 6305,Boundary
-6306,Dot
+6306,Boundary
 6307,Run_Bw_Wickets
 6308,Dot
 6309,Dot
@@ -7403,7 +7403,7 @@ ID,Target
 7401,Run_Bw_Wickets
 7402,Wicket
 7403,Run_Bw_Wickets
-7404,Dot
+7404,Run_Bw_Wickets
 7405,Run_Bw_Wickets
 7406,Dot
 7407,Dot
@@ -8100,7 +8100,7 @@ ID,Target
 8098,Run_Bw_Wickets
 8099,Dot
 8100,Boundary
-8101,Wicket
+8101,Run_Bw_Wickets
 8102,Boundary
 8103,Dot
 8104,Run_Bw_Wickets
@@ -8287,7 +8287,7 @@ ID,Target
 8285,Wicket
 8286,Run_Bw_Wickets
 8287,Dot
-8288,Dot
+8288,Run_Bw_Wickets
 8289,Dot
 8290,Dot
 8291,Dot
@@ -8704,7 +8704,7 @@ ID,Target
 8702,Dot
 8703,Run_Bw_Wickets
 8704,Wicket
-8705,Boundary
+8705,Dot
 8706,Run_Bw_Wickets
 8707,Run_Bw_Wickets
 8708,Run_Bw_Wickets
@@ -9277,7 +9277,7 @@ ID,Target
 9275,Run_Bw_Wickets
 9276,Run_Bw_Wickets
 9277,Run_Bw_Wickets
-9278,Run_Bw_Wickets
+9278,Dot
 9279,Boundary
 9280,Run_Bw_Wickets
 9281,Dot
@@ -10020,7 +10020,7 @@ ID,Target
 10018,Boundary
 10019,Run_Bw_Wickets
 10020,Dot
-10021,Run_Bw_Wickets
+10021,Boundary
 10022,Run_Bw_Wickets
 10023,Boundary
 10024,Run_Bw_Wickets
@@ -12487,7 +12487,7 @@ ID,Target
 12485,Run_Bw_Wickets
 12486,Dot
 12487,Dot
-12488,Boundary
+12488,Run_Bw_Wickets
 12489,Dot
 12490,Dot
 12491,Dot
@@ -14445,7 +14445,7 @@ ID,Target
 14443,Run_Bw_Wickets
 14444,Dot
 14445,Dot
-14446,Dot
+14446,Run_Bw_Wickets
 14447,Dot
 14448,Dot
 14449,Dot
@@ -14993,7 +14993,7 @@ ID,Target
 14991,Wicket
 14992,Dot
 14993,Dot
-14994,Dot
+14994,Run_Bw_Wickets
 14995,Run_Bw_Wickets
 14996,Run_Bw_Wickets
 14997,Run_Bw_Wickets
@@ -16675,7 +16675,7 @@ ID,Target
 16673,Run_Bw_Wickets
 16674,Dot
 16675,Run_Bw_Wickets
-16676,Dot
+16676,Run_Bw_Wickets
 16677,Dot
 16678,Boundary
 16679,Dot
@@ -19843,7 +19843,7 @@ ID,Target
 19841,Boundary
 19842,Run_Bw_Wickets
 19843,Run_Bw_Wickets
-19844,Wicket
+19844,Boundary
 19845,Dot
 19846,Run_Bw_Wickets
 19847,Dot
@@ -20600,7 +20600,7 @@ ID,Target
 20598,Boundary
 20599,Dot
 20600,Wicket
-20601,Run_Bw_Wickets
+20601,Boundary
 20602,Run_Bw_Wickets
 20603,Run_Bw_Wickets
 20604,Dot
@@ -24665,7 +24665,7 @@ ID,Target
 24663,Dot
 24664,Run_Bw_Wickets
 24665,Run_Bw_Wickets
-24666,Wicket
+24666,Run_Bw_Wickets
 24667,Run_Bw_Wickets
 24668,Dot
 24669,Run_Bw_Wickets
@@ -25561,7 +25561,7 @@ ID,Target
 25559,Run_Bw_Wickets
 25560,Boundary
 25561,Dot
-25562,Dot
+25562,Run_Bw_Wickets
 25563,Dot
 25564,Dot
 25565,Run_Bw_Wickets
