@@ -1,8 +1,7 @@
 ## Accuracy Conclusions
-1. CountVector Written from Scratch - 62.45%
-2. CountVector - 76.872%
-3. TfIdf - 70.305%
-4. Deep Learning (using Single-Label MultiClass Classification) - 83.041%
+1. CountVector - 84.02%
+2. TfIDf - 85.79% 
+3. Deep Learning (using Single-Label Binary Classification) - 88.3%
 
 ## Data Preprocessing
 
@@ -47,6 +46,9 @@ import sklearn, nltk
 from sklearn.feature_extraction.text import CountVectorizer
 
 17500 docs, 34325 unique tokens
+
+Accuracy
+    CountVector - 84.02%
 ```
 
 ## Count Vector written from Scratch
@@ -92,7 +94,7 @@ Each row is the vector representation of that document.
 
 2. Accuracy
 from sklearn.naive_bayes import MultinomialNB
-    TfIdf - 70.305%
+    TfIDf - 85.79% 
 ```
 
 ## Deep Learning
