@@ -89,6 +89,7 @@ More Preprocessing Required
 
 ```
 ## Accuracy
+1. Linear Regression Model
 ```
     Intercept:  4.488236417689669
     Training R2 Score:  0.568134210657812
