@@ -50,6 +50,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 ```
 
 ## Count Vector written from Scratch
+```
 1. Clean Paragraph
 2. Create classes and assign probs
     0    8764
@@ -77,8 +78,9 @@ from sklearn.feature_extraction.text import CountVectorizer
                    
                 update pred_class_prob_value and pred_class
    ```
-   
-## TfIdf Vector        
+```
+## TfIdf Vector
+```
 1. from sklearn.feature_extraction.text import TfidfVectorizer, TfidfTransformer
 tfidf = TfidfVectorizer()
 training_set_counts = tfidf.fit_transform(train.text)
@@ -91,9 +93,11 @@ Each row is the vector representation of that document.
 2. Accuracy
 from sklearn.naive_bayes import MultinomialNB
     TfIdf - 70.305%
+```
 
 ## Deep Learning
 
+```
 from sklearn.feature_extraction.text import CountVectorizer
 vectorizer = CountVectorizer(min_df=2, tokenizer=nltk.word_tokenize)
 training_vectorized_data = vectorizer.fit_transform(train.text).toarray()
@@ -102,19 +106,19 @@ Test Data - (7500, 34325)
 
 
 Model
-```
-network = models.Sequential()
-network.add(layers.Dense(16, activation='relu', input_shape=(34325,)))
-network.add(layers.Dense(16, activation='relu'))
-# network.add(layers.Dense(4, activation='relu'))
-network.add(layers.Dense(1, activation='sigmoid'))
+    ```
+    network = models.Sequential()
+    network.add(layers.Dense(16, activation='relu', input_shape=(34325,)))
+    network.add(layers.Dense(16, activation='relu'))
+    network.add(layers.Dense(1, activation='sigmoid'))
 
-network.compile(optimizer = 'rmsprop',
-             loss = 'binary_crossentropy',
-             metrics = ['accuracy'])
+    network.compile(optimizer = 'rmsprop',
+                 loss = 'binary_crossentropy',
+                 metrics = ['accuracy'])
 
-history = network.fit(training_vectorized_data, train.labels, epochs=4, batch_size=512)
+    history = network.fit(training_vectorized_data, train.labels, epochs=4, batch_size=512)
 
-test_loss, test_acc = network.evaluate(test_vectorized_data, test.labels)
-test_accuracy:  0.8869333333333334
+    test_loss, test_acc = network.evaluate(test_vectorized_data, test.labels)
+    test_accuracy:  0.8869333333333334
+    ```
 ```
