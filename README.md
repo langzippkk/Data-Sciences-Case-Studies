@@ -1,7 +1,6 @@
 # Airbnb Price Prediction
-```
-https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/airbnb-Price-Prediction
-```
+[Folder Link](https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/airbnb-Price-Prediction)
+
 
 #### Statistics
 ```
@@ -10,9 +9,7 @@ https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/airbnb-Price-
 ```
 
 # Imdb Sentiment Analysis
-```
-https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/imdb-Sentiment-Analysis
-```
+[Folder Link](https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/imdb-Sentiment-Analysis)
 
 #### Statistics
 ```
@@ -22,9 +19,7 @@ https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/imdb-Sentimen
 ```
 
 # Cricket Commentary Ball Predictions
-```
-https://americas.internal.deloitteonline.com/sites/DLabs/Pages/Cricket-Commentary-Challenge.aspx
-```
+[Folder Link](https://americas.internal.deloitteonline.com/sites/DLabs/Pages/Cricket-Commentary-Challenge.aspx)
 
 #### Statistics
 ```
@@ -45,18 +40,16 @@ https://americas.internal.deloitteonline.com/sites/DLabs/Pages/Cricket-Commentar
 
 
 # Notes
-```
 1. Dataset specifics.
 2. Algorithm Specific
   * Classification
   * Regression
   * Clustering
 3. Industry Applications
-  NLP
-  Churn Modelling
-  Sales Forecasting
+  * NLP
+  * Churn Modelling
+  * Sales Forecasting
   
 Links to Read:
 * [Data Science Interview Medium](https://towardsdatascience.com/giving-some-tips-for-data-science-interviews-after-interviewing-60-candidates-at-expedia-395fff7e073b)
 * [Machine Learning System Design](https://github.com/chiphuyen/machine-learning-systems-design)
-```
