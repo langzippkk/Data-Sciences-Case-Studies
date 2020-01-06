@@ -42,3 +42,21 @@ https://americas.internal.deloitteonline.com/sites/DLabs/Pages/Cricket-Commentar
 3. MultiClass Classification (NewsWires) - 78.3%
 4. Boston Price Prediction - Implemented but Results not recorded
 ```
+
+
+# Notes
+```
+1. Dataset specifics.
+2. Algorithm Specific
+  * Classification
+  * Regression
+  * Clustering
+3. Industry Applications
+  NLP
+  Churn Modelling
+  Sales Forecasting
+  
+Links to Read:
+* [Data Science Interview Medium](https://towardsdatascience.com/giving-some-tips-for-data-science-interviews-after-interviewing-60-candidates-at-expedia-395fff7e073b)
+* [Machine Learning System Design](https://github.com/chiphuyen/machine-learning-systems-design)
+```
