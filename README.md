@@ -1,5 +1,5 @@
 # Airbnb Price Prediction
-[Folder Link](https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/airbnb-Price-Prediction)
+[Folder Link](https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/Dataset%20Specific/airbnb-price-prediction)
 
 
 #### Statistics
@@ -9,7 +9,7 @@
 ```
 
 # Imdb Sentiment Analysis
-[Folder Link](https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/imdb-Sentiment-Analysis)
+[Folder Link](https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/Dataset%20Specific/imdb-sentiment-analysis)
 
 #### Statistics
 ```
@@ -19,6 +19,7 @@
 ```
 
 # Cricket Commentary Ball Predictions
+[Folder Link](https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/Dataset%20Specific/cricket-commentary-ball-predictions)
 
 #### Statistics
 ```
@@ -29,6 +30,7 @@
 ```
 
 # Deep Learning Examples
+[Folder Link](https://github.com/raunak-r/Data-Sciences-Case-Studies/tree/master/Concept%20Specific/Deep%20Learning%20(On%20Various%20Datasets))
 
 ```
 1. Handwriting Recognition - 98.06%
